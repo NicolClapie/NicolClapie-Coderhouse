@@ -1,0 +1,245 @@
+
+body {
+  background-color: #BBBBBB;
+
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#header__inicio{
+  width: 100%;
+  height: 140px;
+	position: relative;
+	margin-bottom: 0%;
+  padding: 0px;
+  font-size: 24px;
+  background-image: url(../imgDeInicio/fondoFooter.jpg);
+}
+
+nav{
+  position: relative;
+	bottom: 800px;
+	left: 500px ;
+  bottom: 11.4285714286%;
+	left: 17.344339834022222222222222222223% ;
+}
+#header__inicio nav ul li{
+  display: inline;
+}
+  
+
+
+
+#header__inicio nav ul li a{
+  text-decoration:none;
+  color: green;
+  text-transform: uppercase;
+  font-size: 62.5%;
+
+}
+ul{
+  display: flex;
+  flex: end;
+  flex-direction: wrap;
+  gap: 1%;
+
+}
+ul li a{
+  border: 2px solid transparent;
+  padding: 1px 10px;
+}
+ul li a:hover{
+  border: 2px solid green;
+}
+ul li a:active{
+  background-color: yellowgreen;
+
+
+}
+
+
+
+.icono{
+  margin-left: 5%;
+  width: 10%;
+}
+
+.titulo{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.tituloCursiva{
+  font-style: italic;
+}
+
+p{
+  text-align: center;
+}
+
+.video{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagenes{
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.listaOrdenada{
+  text-align: center;
+}
+
+.contenedor{
+  display: flex;
+}
+
+.imgMate{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yerbaMate{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .Productos{
+  margin: 5px;
+  padding: 5px;
+} */
+
+.Sector-mates{
+  text-align: center;
+
+}
+.Productos{
+  background-color: brown;
+    border: 2px solid red;
+    color: black;
+    text-align: center;
+}
+
+
+  /* display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr;
+  grid-template-areas:
+  "uno dos tres"
+  "cuatro cinco seis"; */
+
+
+.Productos:hover{
+  background-color: gray;
+  border: red;
+  color: brown;
+}
+.card-mia{
+  border: 5px solid green;
+}
+.medio{
+  text-align: center;
+}
+.liUno{
+  grid-area: uno;
+}
+.liDos{
+grid-area: dos;
+}
+.litres{
+  grid-area: tres;
+}
+.liCuatro{
+  grid-area: cuatro;
+}
+.liCinco{
+  grid-area: cinco;
+}
+  .liSeis{
+    grid-area: seis;
+}
+
+.Productos li{
+
+  border: 5px black solid;
+}
+/*
+.Productos li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  border: 5px black solid;
+  margin: 1%   1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-color: #000000;
+  border-width: 2px ;
+  border-style: solid;
+  border-radius: 10px;
+
+} */
+
+.Productos img{
+  max-width: 100%;
+}
+
+.Productos h2{
+  font-size: 187.5%;
+  font-weight: bold;
+}
+
+.Productos-descripcion{
+  font-size: 112.5%;
+  text-align: center;
+}
+
+.Productos-precio{
+  font-size: 125%;
+  font-weight: bold;
+  margin-top: 3.9510075069%;
+  text-align: center;
+}
+/* .btn-mio{
+  background-color: brown;
+  border: 1px solid red;
+  color: black;
+}
+.btn-mio:hover{
+  background-color: gray;
+  border: red;
+  color: brown;
+} */
+footer{
+  text-align: center;
+  padding: 4.1558441558%;
+  background-image: url(../imgDeInicio/fondoFooter.jpg);
+  background-repeat: repeat;
+
+}
+
+footer img {
+  width: 45.3129866085%;
+  height: 45.3710988723%;
+}
+
+.Copyright{
+  color: beige;
+}
+.inpudMio{
+  border: 2px solid green;
+}
